@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Hoja de estilos CSS -->
-    <link rel="stylesheet" href="/source/css/style.css">
+    <link rel="stylesheet" href="../source/css/style.css">
 
     <!-- Define el titulo de la página -->
     <title>Videos</title>
@@ -33,8 +33,15 @@
         <section>
             <!-- El atributo de preload es bastante importante para que se cargue junto con la página
             y el usuario pueda comenzar a verlo de inmediato -->
-            <video src="/source/video/video.mp4#t=05,08" controls preload="auto"></video>
-            <!-- #t= indica donde inicia y finaliza la parte importante del video -->
+            <video  controls preload="auto">
+                <!-- #t= indica donde inicia y finaliza la parte importante del video -->
+
+                <!-- fuentes de video -->
+                <source src="../source/video/video.mp4#t=05,08">
+                <!-- Si fue un avi se coloca aca y sucesivamente con cada formato de video -->
+                <source src="../source/video/video.mp4#t=05,08"> 
+            </video>
+            
         </section>
     </main>
 
