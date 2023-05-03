@@ -1,0 +1,19 @@
+h1{
+    color: red;
+    font-size: 15px;
+}
+
+/* ===== CLASE ===== */
+.titulo{
+    background-color: black;
+    color: white;
+}
+
+/* ===== ID ===== */
+#texto{
+    font-weight: 500;
+}
+
+/* ===== SEUDO CLASE ===== */
+
+/* ===== SEUDO ELEMENTO ===== */
