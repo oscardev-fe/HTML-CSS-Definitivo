@@ -14,6 +14,37 @@ h1{
     font-weight: 500;
 }
 
-/* ===== SEUDO CLASE ===== */
+.main-nav{
+    margin-top: 10px;
+    list-style: none; /*Le quita las viñetas a la lista*/
+    padding-left: 0px; /*Le quita el margen que agrega por defecto el navegador*/
+    background-color: beige; /*Agrega un fondo al contenedor*/
+}
 
-/* ===== SEUDO ELEMENTO ===== */
+.main-nav__item{
+    display: inline-block; /*Coloca los elementos en línea*/
+}
+
+/* ESPECIFICO */
+.main-nav__item a{
+    color: black;
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+/* SEUDOCLASE */
+.main-nav__item a:hover{
+    color: white;
+}
+
+.main-nav__item a:active{
+    color: red;
+}
+
+/* SEUDOELEMENTO */
+.main-nav__item a::after{
+    content: "*";
+}
+
