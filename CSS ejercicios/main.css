@@ -35,6 +35,7 @@ h1{
 }
 
 /* SEUDOCLASE */
+/* Define el estilo y estado de un elemento */
 .main-nav__item a:hover{
     color: white;
 }
@@ -44,6 +45,7 @@ h1{
 }
 
 /* SEUDOELEMENTO */
+/* Definen una parte especifica */
 .main-nav__item a::after{
     content: "*";
 }
