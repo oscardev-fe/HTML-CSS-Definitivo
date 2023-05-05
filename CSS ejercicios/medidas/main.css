@@ -1,0 +1,35 @@
+html{
+    /* La forma correcta de usar, cada que coloque un 1 rem valen a 10px y 1.6 a 16px */
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 20px;
+}
+
+main{
+    background-color: black;
+    width: 100% ;
+    height: 500px;
+    /* Oculta el scroll */
+    overflow: hidden; 
+    font-size: 1em;
+}
+
+/* Medidad absoluta */
+/* p{
+    font-size: 25px;
+} */
+
+/* Medida en porcentaje */
+p{
+    /* font-size: 100%; */
+    color: white;
+}
+
+/* Toma el tamaño de fuente del padre directo, si es html 16px de ahi tomara con una regla de 3*/
+.text-container{
+    font-size: 1.6rem;
+}
+
+/* REM se basa en el root */

@@ -9,3 +9,15 @@
 h2 ~ p{
     color: red;
 }
+
+/* Del padre div que sea mayor de una etiqueta parrafo */
+/* La etiqueta parrafo que sea hija de un div */
+/* Etiqueta p que sea hija directa de div */
+div > p{
+    color: red;
+}
+
+/* Descendiente */
+div p {
+    color: red;
+}

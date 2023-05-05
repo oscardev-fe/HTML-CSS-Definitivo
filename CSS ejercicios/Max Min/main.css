@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+section{
+    /* Siempre debe exitir un width base para darle el min y max */
+    width: 80%;
+    min-width: 320px;
+    max-width: 500px;
+    /* Para quitar el overflow colocamos min high para que crezca segun el contenido */
+    min-height: 500px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
