@@ -1,5 +1,11 @@
 /* Todas las etiquetas de parrafo cercanas a un h2 */
 /* Aplicale el color rojo a todas las etiquetas parrafo que esten cercas de un h2 */
-h2 + p{
+/* h2 + p{
+    color: red;
+} */
+
+
+/* Como hermano general un h2 vamos a afectar a todas las estiquetas de parrafo. */
+h2 ~ p{
     color: red;
 }
