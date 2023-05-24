@@ -15,23 +15,28 @@ body {
 .container {
     border: .3rem solid black;
     display: flex;
-    /* Permite que los elementos de colopasen */
+    /* height: 50vh; */
+    /* align-items: baseline; */
     flex-wrap: wrap;
-    /* justify-content: center; */
-    justify-content: space-evenly;
+
 }
 
 .box {
-    width: 10rem;
+    /* width: 10rem; */
     height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
 }
 
 .box1 {
     background-color: antiquewhite;
+    /* order: 1; */
+    /* flex-grow: 1; */
 }
 
 .box2 {
     background-color: rgb(52, 80, 51);
+    /* flex-grow: 1; */
 }
 
 .box3 {
