@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    width: 100vw;
+    height: 15vh;
+    background-color: aquamarine;
+}
+
+main {
+    width: 100vw;
+    height: 70vh;
+    font-size: 1.8rem;
+}
