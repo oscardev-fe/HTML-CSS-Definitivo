@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    /* Reposicionarse si el tamño lo permite */
+    flex-wrap: wrap;
+}
+
+.c1,
+.c2,
+.c3,
+.c4,
+.c5 {
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
+}
+
+.c4 {
+    height: auto;
+}
+
+.c1 {
+    background-color: sandybrown;
+}
+
+.c2 {
+    background-color: darkcyan;
+}
+
+.c3 {
+    background-color: salmon;
+}
+
+.c4 {
+    background-color: aqua;
+}
+
+.c5 {
+    background-color: wheat;
+}
+
+/* Todo lo que que este arriba de este breakpoint se aplicará a pantallas menores de 600px */
+/* @media (min-width: 600px) {
+
+    .c2,
+    .c3,
+    .c4 {
+        width: 50%;
+    }
+} */
+
+/* 
+@media (min-width: 800px) {
+    .container {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .c1 {
+        width: 60%;
+    }
+
+    .c2 {
+        width: 40%;
+    }
+
+    .c3,
+    .c4 {
+        width: 33%;
+    }
+
+    .c5 {
+        width: 34%;
+    }
+} */
