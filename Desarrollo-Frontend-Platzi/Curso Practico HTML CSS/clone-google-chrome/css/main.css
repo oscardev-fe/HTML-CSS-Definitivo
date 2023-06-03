@@ -69,3 +69,18 @@ main .main-logo {
 main .main-logo img {
     width: 300px;
 }
+
+main .main-input {
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container {
+    width: 395px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
