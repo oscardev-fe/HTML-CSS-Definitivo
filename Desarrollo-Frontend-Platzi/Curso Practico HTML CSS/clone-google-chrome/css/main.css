@@ -92,3 +92,7 @@ main .main-input input {
     /* Ayuda a quitar el foco del input cuando lo seleccionamos */
     outline: none;
 }
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+}
