@@ -58,3 +58,14 @@ main {
     margin-top: 150px;
     text-align: center;
 }
+
+main .main-logo {
+    width: 400px;
+    /* con 0 auto centra el elemento de ambos lados dividiendo lo que queda sobrado de ambos lados */
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img {
+    width: 300px;
+}
