@@ -29,10 +29,21 @@ header nav .nav-right-section {
     height: auto;
     display: flex;
     list-style: none;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     margin-top: 10px;
 }
 
 nav .nav-right-section a {
+    margin-right: 10px;
     color: black;
+}
+
+nav .nav-right-section .menu-icon {
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
 }
