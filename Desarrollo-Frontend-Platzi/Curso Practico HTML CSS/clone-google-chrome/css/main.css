@@ -84,3 +84,11 @@ main .main-input-container {
     justify-content: center;
     align-items: center;
 }
+
+main .main-input input {
+    width: 350px;
+    height: 30px;
+    border: none;
+    /* Ayuda a quitar el foco del input cuando lo seleccionamos */
+    outline: none;
+}
