@@ -169,6 +169,14 @@ main {
     color: var(--bitcoin-orange);
 }
 
+.main-currency-table .currency-table2--title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--secundary-blue);
+}
+
 .currency-table-container {
     width: 90%;
     min-width: 230px;
