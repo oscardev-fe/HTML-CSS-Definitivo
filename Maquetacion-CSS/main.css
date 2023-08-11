@@ -71,6 +71,7 @@ nav .profile-link {
 nav .profile-link a {
     color: #333;
     border-bottom: 1px solid #333;
+    font-family: 'Roboto Mono';
 }
 
 /* SECCION PORTADA */
