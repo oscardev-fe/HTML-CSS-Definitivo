@@ -96,7 +96,8 @@ section .background {
     justify-self: center;
     color: #fff;
     font-size: 2rem;
-    font-family: sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
+    letter-spacing: 10px;
 }
 
 .container-texto button {
@@ -108,4 +109,5 @@ section .background {
     height: 30px;
     margin-top: 20px;
     font-weight: 600;
+    font-family: 'Roboto Mono', sans-serif;
 }
