@@ -4,7 +4,11 @@
 }
 
 body {
-    position: fixed;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.home-body{
+    /* position: fixed; */
     top: 0;
     bottom: 0;
     left: 0;
@@ -71,7 +75,6 @@ nav .profile-link {
 nav .profile-link a {
     color: #333;
     border-bottom: 1px solid #333;
-    font-family: 'Roboto Mono';
 }
 
 /* SECCION PORTADA */
@@ -97,7 +100,6 @@ section .background {
     justify-self: center;
     color: #fff;
     font-size: 2rem;
-    font-family: 'Roboto Mono', sans-serif;
     letter-spacing: 10px;
 }
 
@@ -110,5 +112,80 @@ section .background {
     height: 30px;
     margin-top: 20px;
     font-weight: 600;
-    font-family: 'Roboto Mono', sans-serif;
+}
+
+/* BLOGS */
+.blogs-main{
+    display: grid;
+}
+
+.blogs-news-container{
+    background-color: #e6e9ed;
+    padding: 0 50px 40px;
+}
+
+.blogs-main-new{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.blog-news-img-container{
+    grid-column: 1;
+}
+
+.blog-news-img-container img{
+    width: 90%;
+}
+
+.blogs-news-info-container{
+    grid-column: 2;
+}
+
+.blogs-news-info-container p{
+    margin-bottom: 35px;
+}
+
+.blogs-posts-container{
+    padding: 0 50px 40px;
+}
+
+.blogs-posts-container h3{
+    border-bottom: 1px solid #e6e9ed;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.blogs-button{
+    border: 1px solid #47cfac;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+
+.blogs-posts-container .post-container{
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+}
+
+.blogs-posts-container .post-container p{
+    margin-bottom: 35px;
+}
+
+.blogs-posts-container .post-container img{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #333;
+    border-top: 35px solid #47cfac;
+}
+
+footer p{
+    margin-top: 30px;
+    color: #fff;
+    text-align: center;
 }
